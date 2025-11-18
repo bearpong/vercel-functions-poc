@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "",
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "@vercel/node@5.5.4"
+    }
+  }
+}
